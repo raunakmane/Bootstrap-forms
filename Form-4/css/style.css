@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.form-section{
+    height: 100vh;
+    width: 100%;
+}
+.img-sec{
+    background-image:linear-gradient(to bottom ,rgba(5, 5, 5, 0.363),rgba(5, 5, 5, 0.884)),url('../images/banter-snaps-vWT8NglsYZE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.card-info{
+    margin-left: 175px;
+    margin-top: 175px;
+    font-size: x-large;
+    color: white;
+}
+.form-header{
+    text-align: center;
+    margin-top: 40px;
+}
+.form-content{
+    margin-top: 22px;
+}
+.submit-btn{
+    margin-top: 10px;
+    padding: 2px 25px;
+    background-color: rgb(42, 209, 0);
+    border: none;
+    color: white;
+    box-shadow: rgb(21, 255, 0) 3px 3px 10px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+.submit-btn:hover{
+    background-color: rgb(5, 133, 16);
+    transform: translateY(-5px);
+}
