@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+    background-image:linear-gradient(to bottom right ,rgba(65, 35, 17, 0.733),rgba(8,4,4,1)), url('../images/andrew-neel-cckf4TsHAuw-unsplash.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.card{
+    width: 25%;
+    margin-top: 70px;
+    border: none;
+}
+.card-header{
+   background-image:url('../images/pawel-nolbert-4u2U8EO9OzY-unsplash.jpg');
+   background-position: center;
+   background-size: cover;
+   color: white;
+   font-size: large;
+}
+.form-content{
+    padding: 25px;
+}
+.send-now{
+    background-color: rgba(174, 0, 255, 0.507);
+    color: black;
+    padding: 5px 25px;
+    border-radius: 20px;
+    box-shadow:rgba(137, 43, 226, 0.37) 0px 5px;
+    border: none;
+    transition: all 0.5s;
+}
+.send-now:hover{
+    background-color: rgba(89, 0, 255, 0.438);
+
+}
